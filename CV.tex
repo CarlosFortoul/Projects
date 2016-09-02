@@ -1,0 +1,345 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachsivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TeX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,MMMyyyy,nonstop]{simpleresumecv}
+\topmargin=-0.5in %length of margin at the top of the page (1 inch added by default)
+\oddsidemargin=-0.5in %length of margin on sides for odd pages
+\evensidemargin=-0.5in %length of margin on sides for even pages
+\textwidth=7.5in %How wide you want your text to be
+\marginparsep = 0 in
+\marginparwidth=0in
+\headheight= 1pt %1in margins at top and bottom (1 inch is added to this value by default)
+\headsep=-15.0pt %Increase to increase white space in between headers and the top of the page
+\textheight=11.0in %How tall the text body is allowed to be on each page
+
+% Class options:
+% a4paper, letterpaper, draft, nonstop
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%
+%% PREAMBLE %%
+%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Carlos Fortoul}
+\newcommand{\CVTitle}{Carlos Fortoul Resume}
+\newcommand{\CVWebpage}{http://www.linkedin.com/in/carlosfortoul}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{\CVAuthor}
+\begin{subtitle}
+\href{https://www.google.com/maps/dir/''/1542+Presidio+Dr,+Weston,+FL+33327/data=!4m5!4m4!1m0!1m2!1m1!1s0x88d90a57450cc935:0x260f9cb86d3576bf?sa=X&ved=0ahUKEwisur3Ije3OAhVCHB4KHafxBEEQwwUIHTAA}
+{1542 Presidio Dr, Weston, FL 33327 USA}
+\par
+\href{mailto:carloseduardofv@gmail.com}
+{carloseduardofv@gmail.com}
+\,\SubBulletSymbol\,
++1\,(954)\,817-5226
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\CVWebpage}
+
+\href{https://carlosfortoul.github.io}
+{Website: https://carlosfortoul.github.io}
+
+\rule{\textwidth}{1pt}
+\end{subtitle}
+\vspace{-5mm}
+\begin{body}
+%%%%%%%%%%
+%% Objective %%
+%%%%%%%%%%
+\vspace{-5mm}
+\section
+{Objective}
+\hfill
+TTo obtain an internship in the Computer Science field to apply programming skills
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+
+\href{http://www.ucf.edu/}
+{\textbf{University Of Central Florida}},
+Orlando, Florida, USA
+
+\GapNoBreak
+\BulletItem
+Bachelors of Science in 
+\href{http://catalog.ucf.edu/content/documents/programs/Computer_Science_BS.pdf}
+{Computer Science}
+\hfill \DatestampYMD{2018}{05}{10} 
+\begin{detail}
+\SubBulletItem
+Cumulative GPA: 3.3 / 4.0
+\end{detail}
+
+\BigGap
+\href{http://www.example.com/my-college}
+{\textbf{Florida Atlantic University}},
+Boca Raton, Florida, USA
+\hfill
+\DatestampYMD{2014}{05}{15}
+
+
+%%%%%%%%%%%%%%
+%% EXPERIENCE %%
+%%%%%%%%%%%%%
+
+\section
+{Experience}
+{Experience}
+{PDF:ResearchExperience}
+
+
+\href{http://www.goldmansachs.com/}
+{\textbf{Goldman Sachs}},
+New York, New York, USA
+
+\Gap
+\BulletItem
+\textbf{\textit{Summer Analyst – Private Wealth Management Technology}}
+\hfill
+\DatestampYMD{2016}{06}{02} --
+\DatestampYMD{2016}{08}{10}
+\begin{detail}
+\SubBulletItem
+\small Developed a secure video chatting service utilizing GS Video APIs to facilitate communication between Private Wealth Management Advisors and clients 
+\SubBulletItem 
+Utilized Spring Framework to create endpoints for clients and Advisors
+\SubBulletItem
+Saved information about meetings using Mongo Database
+\SubBulletItem
+Created test classes using JUnit and Mockiito Libraries
+\SubBulletItem
+Utilized web development languages including JavaScript, HTML, and Java to modify both advisor and client side
+\SubBulletItem
+Worked as a team with two other interns and demonstrated proof of concept and functionality to technology management
+
+\end{detail}
+
+\BigGap
+\textbf{Cypress Bay High School},
+Weston, Florida, USA
+
+\Gap
+\BulletItem
+\textbf{\textit{Programming Workshop}}
+\hfill
+\DatestampYMD{2014}{06}{02} 
+\begin{detail}
+\SubBulletItem
+\small Worked with a group of two to six people in order to solve problems and debug codes in Java language
+\SubBulletItem 
+Worked as a team with two classmates and demonstrated efficient communication
+\end{detail}
+
+\Gap
+\BulletItem
+\textbf{\textit{Programming Tutor}}
+\hfill
+\DatestampYMD{2014}{01}{02} --
+\DatestampYMD{2014}{05}{10}
+\begin{detail}
+\SubBulletItem
+Helped students with questions about programs in an Object Oriented Programming class
+\SubBulletItem 
+Evaluated students and helped them to build games with pre-declared functions such as snake, super Mario brothers and brick breaker
+\end{detail}
+
+
+
+%%%%%%%%%%%%%%%%%%
+%% PROJECTS%%
+%%%%%%%%%%%%%%%%%%
+
+\section
+{Projects}
+{Projects}
+{PDF:Projects}
+
+\Gap
+\BulletItem
+\textbf{\textit{IBM Master the Mainframe Contest}}
+\hfill
+\DatestampYMD{2014}{05}{02}, 
+\DatestampYMD{2015}{10}{10}
+\begin{detail}
+\SubBulletItem
+\small
+Contest designed to help understand IBM mainframes using enterprise computing skills such
+as Linux and Z/OS
+\SubBulletItem 
+Achieved completion for part one and two, received a prize for part one
+\end{detail}
+
+\Gap
+\BulletItem
+\textbf{\textit{Programming Projects}}
+\hfill
+\begin{detail}
+\SubBulletItem
+\small
+Built several games and apps in Java and C language such as the game Snake, the card game War, blackjack, go fish, Sudoku and Blackjack
+\SubBulletItem 
+Built my personal Resume in LaTeX language
+\end{detail}
+
+%%%%%%%%%%%%%%%%%
+%% SKILLS & MEMBERSHIPS%
+%%%%%%%%%%%%%%%%%
+
+\section
+{Skills \&\newline
+Memberships}
+{Skills \& Memberships}
+{PDF:SkillsAndMemberships}
+
+\BulletItem
+Proficient knowledge of Java and C.
+\hfill
+
+\Gap
+\BulletItem
+Basic knowledge of JavaScript, HTML, and LaTeX.
+\hfill
+
+\Gap
+\BulletItem
+Proficient in Microsoft Office (MS Word, MS PowerPoint, MS Excel)
+\hfill
+
+\Gap
+\BulletItem
+Proficiency in both Windows and Mac Operating systems
+\hfill
+
+\Gap
+\BulletItem
+Capable of Operating Linux System
+\hfill
+
+\Gap
+\BulletItem
+Fluent in Spanish and English
+\hfill
+
+\Gap
+\BulletItem
+Society of Hispanic Professional Engineers (SHPE) Member
+\hfill
+
+%%%%%%%%%%%%%%%
+%% Relevant Coursework%%
+%%%%%%%%%%%%%%%
+
+\section
+{Relevant
+Coursework}
+{ Relevant Coursework}
+{PDF: Relevant 
+Coursework}
+
+\BulletItem
+\textbf{Computer Science I }(COP 3202C): Problem solving techniques, order analysis and notation,
+abstract data types, and recursion in the programming language C.
+\hfill
+
+\Gap
+\BulletItem
+\textbf{Security in Computing} (CIS 3360):  Malware, Intrusion patterns
+and tools, Windows, Unix, TCP/IP, and applications
+vulnerabilities. Detection. Policies and enforcement.
+Protection and assurance. Encryption/Decryption
+\hfill
+
+\Gap
+\BulletItem
+\textbf{Object Oriented Programming} (COP 3330): Object
+oriented programming concepts and the expression
+of these concepts in the programming language JAVA.
+\hfill
+
+\Gap
+\BulletItem
+\textbf{Computer Organization} (CDA 3103C):  Logic design, computer arithmetic,
+Instruction Set Architecture (MIPS, SPIM simulator),
+performance, data path, control unit, memory hierarchy, I/O
+interface.
+\hfill
+
+\Gap
+\BulletItem
+\textbf{Discrete Structures I }(COT 3100C): Logic, sets, functions, relations, combinatorics,
+graphics, Boolean algebras, finite-state machines, Turing
+machines, unsolvability, computational complexity.
+\hfill
+
+\Gap
+\BulletItem
+\textbf{Calculus I and II}
+\hfill
+
+%%%%%
+
+\end {body}
+
+\end{document}
+
+\clearpage
