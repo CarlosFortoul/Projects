@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	padding:0;
+
+}
+
+p {
+	line-height: 1.5;
+	font-size: 20px;
+}
+
+.info {
+/*dot -> class*/
+	text-align: center;
+	font-family: 'Britannic Bold';
+	font-size: 25px;
+	/*background: #63B8FF;*/
+	padding:100px;
+	color:gold;    
+ 	
+ }
+
+.resume {
+	color:white;
+	text-decoration: none;	
+}
+
+.resume:hover{
+	color:gold;
+}
+
+ li{
+	padding-right: 30px;
+	display: inline;
+}
+
+ .container {
+ 	width: 100%;
+ 	margin: 0 auto;
+ }
+
+/
