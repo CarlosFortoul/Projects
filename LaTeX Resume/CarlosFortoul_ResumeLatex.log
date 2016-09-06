@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  2 SEP 2016 16:03
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  6 SEP 2016 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**CV.tex
-(./CV.tex
+**CarlosFortoul_ResumeLatex.tex
+(./CarlosFortoul_ResumeLatex.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./simpleresumecv.cls
@@ -715,8 +715,8 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 66.
 Package hyperref Info: Option `breaklinks' set `true' on input line 66.
-(./CV.aux)
-\openout1 = `CV.aux'.
+(./CarlosFortoul_ResumeLatex.aux)
+\openout1 = `CarlosFortoul_ResumeLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
@@ -738,7 +738,8 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 75.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 75.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 75.
@@ -791,9 +792,9 @@ LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
 LaTeX Info: Redefining \nameref on input line 75.
 
-(./CV.out) (./CV.out)
+(./CarlosFortoul_ResumeLatex.out) (./CarlosFortoul_ResumeLatex.out)
 \@outlinefile=\write3
-\openout3 = `CV.out'.
+\openout3 = `CarlosFortoul_ResumeLatex.out'.
 
 .................................................
 . fontspec info: "setup-math"
@@ -875,18 +876,18 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
- (./CV.aux)
+ (./CarlosFortoul_ResumeLatex.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 346.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 346.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
  ) 
 Here is how much of TeX's memory you used:
  22191 strings out of 493591
- 397658 string characters out of 6143546
- 443091 words of memory out of 5000000
+ 397957 string characters out of 6143546
+ 443114 words of memory out of 5000000
  25426 multiletter control sequences out of 15000+600000
  4168 words of font info for 36 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 53i,7n,63p,10462b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,7n,63p,10485b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV.pdf (1 page).
+Output written on CarlosFortoul_ResumeLatex.pdf (1 page).
